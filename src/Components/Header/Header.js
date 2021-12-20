@@ -33,5 +33,3 @@ const Header = () => {
 };
 
 export default Header;
-
-{/* <img src="https://raw.githubusercontent.com/bradtraversy/breaking-bad-cast/master/src/img/logo.png" alt="" /> */}
