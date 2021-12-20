@@ -1,0 +1,31 @@
+.detail{
+    border: 5px solid white;
+    margin: 25px 50px 75px 100px;
+    height:400px;
+    width:700px;
+    background-color:white;
+    display: flex;
+    padding: 15px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.character-image{
+    height: 100%;
+    width:100%;
+}
+
+.character-detail{
+margin:30px;
+}
+
+/* Quote part */
+
+.quote{
+    border: rgba(255, 255, 255, 0.445) solid white;
+    margin: 25px 50px 75px 100px;
+    height:200px;
+    width:900px;
+    background-color: rgba(255, 255, 255, .4);
+    padding: 15px;
+  border-radius:5px;
+}

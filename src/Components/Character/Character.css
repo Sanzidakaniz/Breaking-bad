@@ -1,0 +1,8 @@
+.character-card{
+  margin: 25px 90px 50px 90px;
+  width:80%;
+}
+.character-header{
+  color: seagreen;
+   font-weight:700;
+}
