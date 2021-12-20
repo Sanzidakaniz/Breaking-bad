@@ -41,11 +41,11 @@ const CharacterDetail = () => {
 <h1>{detail.name}</h1>
 <hr/>
 <p>Date of Birth : {detail.birthday}</p>
-<p>Occupation :{detail.occupation}</p>
-<p>Status :{detail.status}</p>
-<p>Nickname :{detail.nickname}</p>
-<p>Portrayed By:{detail.portrayed}</p>
-<p>Appearance (Season) :{detail.appearance}</p>
+<p>Occupation : {detail.occupation}</p>
+<p>Status : {detail.status}</p>
+<p>Nickname : {detail.nickname}</p>
+<p>Portrayed By: {detail.portrayed}</p>
+<p>Appearance (Season) : {detail.appearance}</p>
          </div>
          </div>
          </div>
