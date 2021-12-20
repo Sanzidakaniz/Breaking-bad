@@ -4,11 +4,13 @@ import Search from '../Header/Search/Search';
 import "./Characters.css";
 const renderData = (characters) => {
   return (
-    <div>
+    <div className="container">
+    <div className="row">
                 {
                     characters.map(character=><Character
                    key={character.char_id} character={character}></Character>)
                 }
+              </div>
               </div>
   );
 };
@@ -93,6 +95,8 @@ function PaginationComponent() {
     <>
         <Search getQuery={(q) => setQuery(q)}/>
       {renderData(currentItems)}
+      <div className="row">
+      <div className="col-lg-12 col-md-12 col-sm-12 ">
       <ul className="pageNumbers">
         <li>
           <button
@@ -115,7 +119,8 @@ function PaginationComponent() {
           </button>
         </li>
       </ul>
-    
+      </div>
+      </div>
     </>
   );
 }

@@ -8,6 +8,19 @@
     padding: 15px;
     box-shadow: 10px 10px 5px #aaaaaa;
 }
+h1{
+  color: seagreen;
+  font-weight:500;
+     
+}
+
+hr{
+    height: 20px;
+   }
+
+   span{
+       color:seagreen;
+   }
 
 .character-image{
     height: 100%;
@@ -21,11 +34,23 @@ margin:30px;
 /* Quote part */
 
 .quote{
-    border: rgba(255, 255, 255, 0.445) solid white;
+    border: rgba(255, 255, 255, 0.157) solid white;
     margin: 25px 50px 75px 100px;
     height:200px;
     width:900px;
-    background-color: rgba(255, 255, 255, .4);
+    background-color:   rgba(255, 255, 255, 0.883);
     padding: 15px;
   border-radius:5px;
 }
+
+/* Make it responsive */
+/* @media only screen and (max-width:688px) {
+    .service-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media only screen and (min-width:689px) and (max-width: 991px){
+    .service-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+} */

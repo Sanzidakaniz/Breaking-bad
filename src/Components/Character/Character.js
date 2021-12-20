@@ -7,16 +7,16 @@ const Character = (props) => {
  
     const {char_id,name,status,occupation,birthday}=props.character;
     return (
-      <div>
+      <div className="col-lg-12 col-md-12 col-sm-12">
        
         <Card className="character-card">
         <Card.Header className="character-header">{name}</Card.Header>   
         
         <Card.Body>
  
-        <Card.Text>Status:{status} </Card.Text>
-  <Card.Text>Occupation:{occupation} </Card.Text>
-  <Card.Text>Date of Birth:{birthday}</Card.Text>
+        <Card.Text>Status: {status} </Card.Text>
+  <Card.Text>Occupation: {occupation} </Card.Text>
+  <Card.Text>Date of Birth: {birthday}</Card.Text>
          <Link to={`/character/${char_id}`}>See details</Link>
         </Card.Body>
       </Card>
